@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div.container {
+  padding: 30px;
+  width: 400px;
+  margin: auto;
+}
+
+div.todoContainer {
+  padding: 30px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border-left: 6px solid #40a4f4;
+  border-top: solid 1px lightgrey;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  transition: transform ease 200ms;
+}
+
+div.todoContainer:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+span {
+  margin-left: 10px;
+}
+
+span.fertig {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  text-decoration: line-through;
+}
